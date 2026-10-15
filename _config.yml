@@ -1,0 +1,22 @@
+title: Mod Studio
+description: An independent game studio cooking something cool.
+email: developer@modstudio.games
+parent_company:
+  name: ModSolutionz
+  url: https://modsolutionz.com
+
+# Set by the GitHub Pages workflow at build time (e.g. "/modstudio-games").
+# Leave empty here; it is "" when served from a custom domain.
+baseurl: ""
+url: ""
+
+markdown: kramdown
+permalink: pretty
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .bundle
+  - .github

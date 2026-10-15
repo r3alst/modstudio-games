@@ -1,0 +1,11 @@
+<footer class="site-footer">
+  <nav aria-label="Legal">
+    <a href="{{ '/privacy-policy/' | relative_url }}">Privacy Policy</a>
+    <a href="{{ '/terms-of-service/' | relative_url }}">Terms of Service</a>
+    <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+  </nav>
+  <p>
+    &copy; {{ site.time | date: "%Y" }} {{ site.title }}.
+    A project of <a href="{{ site.parent_company.url }}" rel="noopener">{{ site.parent_company.name }}</a>.
+  </p>
+</footer>
