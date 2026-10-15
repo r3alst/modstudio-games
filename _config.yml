@@ -5,10 +5,9 @@ parent_company:
   name: ModSolutionz
   url: https://modsolutionz.com
 
-# Set by the GitHub Pages workflow at build time (e.g. "/modstudio-games").
-# Leave empty here; it is "" when served from a custom domain.
+# Served from the root of the custom domain, so no base path.
+url: https://modstudio.games
 baseurl: ""
-url: ""
 
 markdown: kramdown
 permalink: pretty
