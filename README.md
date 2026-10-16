@@ -12,6 +12,7 @@ Mod Studio is a project of [ModSolutionz](https://modsolutionz.com).
 | `_includes/cooking.svg` | Animated "Cooking something cool" illustration |
 | `privacy-policy.md` | Privacy Policy (`/privacy-policy/`) |
 | `terms-of-service.md` | Terms of Service (`/terms-of-service/`) |
+| `lastcoat/privacy/index.html` | Last Coat privacy policy for Google Play and AdMob (`/lastcoat/privacy/`), a standalone page |
 | `_includes/footer.html` | Footer with legal links and contact email |
 | `_config.yml` | Site title, contact email, parent company |
 | `.github/workflows/pages.yml` | Build and deploy workflow |
